@@ -1,0 +1,23 @@
+.contact__container {
+  width: 87%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 90px;
+  margin-right: 90px;
+}
+input[type="submit"] {
+  background: #f0c14b;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #f0c14b;
+  color: white;
+}
