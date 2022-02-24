@@ -37,7 +37,11 @@ export default function ContactUs() {
   }
 
   return (
-    <div className="container pt-5">
+    <div
+      className="container pt-5"
+      data-aos="fade-down"
+      data-aos-duration="1200"
+    >
       <h1>
         <br />
       </h1>
