@@ -1,6 +1,9 @@
 import React from "react";
 import "./Product.css";
 import { useStateValue } from "./StateProvider";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
@@ -20,7 +23,7 @@ function Product({ id, title, image, price, rating }) {
   };
 
   return (
-    <div className="product">
+    <div data-aos="zoom-in-up" data-aos-duration="3000" className="product">
       <div className="product__info">
         <p>{title}</p>
         <p className="product__price">
